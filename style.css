@@ -1,0 +1,90 @@
+* { 
+  padding: 0;
+  margin: 0;
+}
+
+#contianer {
+  width: 80%;
+  margin: auto;
+}
+
+#content {
+  display: flex;
+}
+#content #recent_links {
+  flex-grow: 2;
+}
+
+
+#content #most_viewed {
+  flex-grow: 1;
+  flex-basis: 600px;
+
+}
+
+#content #recent_links article {
+  display: flex;
+}
+
+article {
+  margin: 0px 0px 20px 0px;
+}
+
+article div:nth-child(2) {
+  padding: 0px 0px 0px 10px;
+  position: relative;
+}
+article h3 {
+  font-family: 'Playfair Display', serif;
+  text-transform: capitalize;
+}
+
+article p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+article time {
+  color:#399DF2;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+#mostdiv{
+  /* background-image: url("https://unsplash.it/240/240"); */
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(29, 26, 26, 0.452), 
+      rgba(29, 26, 26, 0.452)
+    ),
+    /* bottom, image */
+    url("https://unsplash.it/240/240");
+
+
+  width: 240px;
+  height: 240px;
+  margin: 10px;
+
+}
+#mostdiv p{
+  position: relative;
+  color: white;
+  
+  width: 238px;
+  /* margin: 0px 0px 0px 6px; */
+  bottom: -111px;
+  right: -6px;
+}
+#mostdiv time{
+  color: white;
+  position: absolute;
+  margin: 11px 0px 0px 6px;
+}
+#mostdiv h3{
+  color: white;
+  position: absolute;
+  margin: 66px 0px 0px 6px
+ 
+
+}
